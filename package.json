@@ -1,0 +1,24 @@
+{
+  "name": "e2etest",
+  "version": "1.0.0",
+  "description": "playWright",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtsushiUtsumi/e2etest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtsushiUtsumi/e2etest/issues"
+  },
+  "homepage": "https://github.com/AtsushiUtsumi/e2etest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "playwright": "^1.30.0"
+  }
+}
