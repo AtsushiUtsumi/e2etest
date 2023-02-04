@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Test - headless",
+            "program": "node_modules/playwright/cli.js",
+            "args":["test"]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Test - headed",
+            "program": "node_modules/playwright/cli.js",
+            "args":["test", "--headed"]
+        }
+    ]
+}
